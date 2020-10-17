@@ -10,8 +10,10 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.2/dropzone.min.css" integrity="sha512-3g+prZHHfmnvE1HBLwUnVuunaPOob7dpksI7/v6UnF/rnKGwHf/GdEq9K7iEN7qTtW+S0iivTcGpeTBqqB04wA==" crossorigin="anonymous" />
 
+        <link rel="stylesheet" href="{{asset('css/app.css')}}">
+
         <!-- Styles -->
-        <style>
+        {{-- <style>
             html, body {
                 background-color: #fff;
                 color: #636b6f;
@@ -62,9 +64,9 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
-        </style>
+        </style> --}}
     </head>
-    <body>
+    <body class="bg-dark col-md-12">
         {{-- <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -80,16 +82,14 @@
                 </div>
             @endif
         </div> --}}
+            <form action=" {{route('image.store')}} " class="dropzone" id="my-awesome-dropzone" method="POST">
+                <a href="{{route('image.index')}}" class="btn btn-primary btn-lg btn-block">Ver galeria</a>
+            </form>
 
-        <form action=" {{route('image.store')}} " class="dropzone" id="my-awesome-dropzone" method="POST">
-        </form>
+            
 
-        {{-- <form action="{{route('image.store')}}" method="post" enctype="multipart/form-data">
-            @csrf
-            <input type="file" name="file" id="file">
-            <input type="submit" value="Enviar">
-        </form> --}}
         
+        <script src="{{asset('js/app.js')}}"></script>
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.7.2/min/dropzone.min.js" integrity="sha512-9WciDs0XP20sojTJ9E7mChDXy6pcO0qHpwbEJID1YVavz2H6QBz5eLoDD8lseZOb2yGT8xDNIV7HIe1ZbuiDWg==" crossorigin="anonymous"></script>
         

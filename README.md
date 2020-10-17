@@ -60,9 +60,15 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
 
+<h1>Galeria Imagenes Bacground Change and Dropzone </h1>
 
 <p>Galeria de imagenes con laravel, dropzone e intervention-image</p>
+
 <img src="https://dl.dropboxusercontent.com/s/dxww3cx3q5zp7tt/Captura%20de%20pantalla%202020-10-17%20a%20las%2011.23.45.png" alt="capture">
 <img src="https://dl.dropboxusercontent.com/s/uu3w7ay8xt5u5l1/Captura%20de%20pantalla%202020-10-17%20a%20las%2011.24.04.png" alt="capture">
 <img src="https://dl.dropboxusercontent.com/s/t4bspj37z0op0r1/Captura%20de%20pantalla%202020-10-17%20a%20las%2011.23.51.png" alt="capture">
 <img src="https://dl.dropboxusercontent.com/s/wc55qh5q8tnleok/Captura%20de%20pantalla%202020-10-17%20a%20las%2011.23.48.png" alt="capture">
+
+<p>El panel para cargar las imagenes es un espacio donde puedes arrastrar y soltar sin necesidad de recargar la pagina, se suben automaticamente a traves de Ajax.
+
+<img src="https://dl.dropboxusercontent.com/s/qnnhykvoxx4d7zh/Captura%20de%20pantalla%202020-10-17%20a%20las%2011.22.33.png" alt="capture">

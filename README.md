@@ -64,6 +64,8 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 
 <p>Galeria de imagenes con laravel, dropzone e intervention-image</p>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BK0AffppTXI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Ejemplo funcionando: https://www.youtube.com/embed/BK0AffppTXI
 
 <img src="https://dl.dropboxusercontent.com/s/dxww3cx3q5zp7tt/Captura%20de%20pantalla%202020-10-17%20a%20las%2011.23.45.png" alt="capture">

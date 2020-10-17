@@ -44,6 +44,8 @@
             height: 100px;
             background-size: cover;
             background-position: center;
+            border: 3px solid var(--tertiari);
+            border-radius: 10px;
         }
         canvas{
             width: 80px;

@@ -60,7 +60,7 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT). -->
 
-<h1>Galeria Imagenes Bacground Change and Dropzone </h1>
+<h1>Galeria Imagenes Background Change and Dropzone </h1>
 
 <p>Galeria de imagenes con laravel, dropzone e intervention-image</p>
 

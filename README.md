@@ -63,7 +63,7 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 <h1>Galeria Imagenes Background Change and Dropzone </h1>
 
 <p>Galeria de imagenes con laravel, dropzone e intervention-image</p>
-
+<iframe width="100%"  src="https://www.youtube.com/embed/BK0AffppTXI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Ejemplo funcionando: <a href="https://www.youtube.com/embed/BK0AffppTXI" >Video</a>
 

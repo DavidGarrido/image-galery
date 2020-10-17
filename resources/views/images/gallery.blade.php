@@ -34,8 +34,10 @@
         body .container{
             display: flex;
             gap:10px;
-            flex-wrap: wrap;
-            justify-content: center
+            flex-wrap: nowrap;
+            justify-content: center;
+            overflow: auto;
+
         }
         body .container .image{
             width:100px;
